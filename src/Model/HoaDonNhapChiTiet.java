@@ -8,7 +8,9 @@ package Model;
  *
  * @author Hoàng
  */
-public class HoaDonNhapChiTiet {
+public class HoaDonNhapChiTiet{
+    
+    private String IDHoaDonNhapChiTiet;
     private String IDSachNhap;
     private String tenSachNhap;
     private String loaiSachNhap;
@@ -19,7 +21,8 @@ public class HoaDonNhapChiTiet {
     public HoaDonNhapChiTiet() {
     }
 
-    public HoaDonNhapChiTiet(String IDSachNhap, String tenSachNhap, String loaiSachNhap, String nhaXuatBanNhap, int soLuongNhap, float donGiaNhap) {
+    public HoaDonNhapChiTiet(String IDHoaDonNhapChiTiet, String IDSachNhap, String tenSachNhap, String loaiSachNhap, String nhaXuatBanNhap, int soLuongNhap, float donGiaNhap) {
+        this.IDHoaDonNhapChiTiet = IDHoaDonNhapChiTiet;
         this.IDSachNhap = IDSachNhap;
         this.tenSachNhap = tenSachNhap;
         this.loaiSachNhap = loaiSachNhap;
@@ -74,6 +77,15 @@ public class HoaDonNhapChiTiet {
 
     public void setDonGiaNhap(float donGiaNhap) {
         this.donGiaNhap = donGiaNhap;
+    }
+
+    
+    public String getIDHoaDonNhapChiTiet() {
+        return IDHoaDonNhapChiTiet;
+    }
+
+    public void setIDHoaDonNhapChiTiet(String IDHoaDonNhap) {
+        this.IDHoaDonNhapChiTiet = IDHoaDonNhapChiTiet;
     }
     
     

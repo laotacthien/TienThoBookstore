@@ -108,7 +108,7 @@ public class HoaDonNhap {
         this.donGiaNhap = donGiaNhap;
     }*/
 
-    public Object getIDSachNhap() {
+/*    public Object getIDSachNhap() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
@@ -131,6 +131,6 @@ public class HoaDonNhap {
     public Object getDonGiaNhap() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
+    */
     
 }
